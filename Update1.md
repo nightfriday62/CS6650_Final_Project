@@ -8,3 +8,6 @@ MySQL or some time series database. After investigation, AWS supports AWS Timese
 3.	How to collect Log information:
 After investigation, there are mainly 2 ways to collect log information. One is to make the server send information to InfluxDB. The other one is to use a collector. Within the option of using a collector, there are two options too. One is to develop an API that the server will send information through. Or the server just write to a file and the collector reads the file.
 Having a collector reads a file probably has the minimal impact on performance of the main task. So, I investigated the tools I will need, Java Logback and Fluent Bit. 
+
+
+GitHub Link: https://github.com/nightfriday62/CS6650_Final_Project
